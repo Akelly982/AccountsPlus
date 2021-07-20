@@ -1,0 +1,17 @@
+
+.open AccountsPlus.db
+
+CREATE TABLE Clients (
+id INTEGER PRIMARY KEY AUTOINCREMENT, 
+firstName TEXT NOT NULL,
+lastName TEXT NOT NULL,
+email TEXT NOT NULL,
+phoneNum INTEGER NOT NULL,
+tfn INTEGER );
+
+.schema
+to ensure successfull table creation
+
+
+INSERT INTO Clients (firstName,lastName,email,phoneNum,tfn) 
+VALUES("Aidan","Kelly","Akelly982hotmail.com", 0432551812, 999888222);
